@@ -1,0 +1,11 @@
+$ - Getting the complete JSon
+$.data -- All Data Objects
+$.data[0] -- First Data object
+$.data[*].id -- All Ids
+$.data[1,4] -- Products at index 1 and 4
+$.data[:5] -- first five values
+$.data[5:] -- last five values
+$.data[?(@.id>40000)] -- All products with Id greater than 400000
+S.data.length -- Size of the object
+
+https://goessner.net/articles/JsonPath/

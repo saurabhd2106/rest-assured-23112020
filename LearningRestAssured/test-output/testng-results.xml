@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="7" total="8" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2799" started-at="2020-11-28T10:20:25 IST" finished-at="2020-11-28T10:20:28 IST">
+  <suite name="Default suite" duration-ms="4716" started-at="2020-11-28T12:08:05 IST" finished-at="2020-11-28T12:08:09 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2799" started-at="2020-11-28T10:20:25 IST" finished-at="2020-11-28T10:20:28 IST">
-      <class name="tests.BestBuyApiTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.BestBuyApiTests@711f39f9]" name="setup" is-config="true" duration-ms="439" started-at="2020-11-28T10:20:25 IST" finished-at="2020-11-28T10:20:25 IST">
+    <test name="Default test" duration-ms="4716" started-at="2020-11-28T12:08:05 IST" finished-at="2020-11-28T12:08:09 IST">
+      <class name="tests.UploadFile">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.UploadFile@64729b1e]" name="setup" is-config="true" duration-ms="449" started-at="2020-11-28T12:08:05 IST" finished-at="2020-11-28T12:08:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyAddProductWithPostRequestWithPojo()[pri:0, instance:tests.BestBuyApiTests@711f39f9]" name="verifyAddProductWithPostRequestWithPojo" duration-ms="2326" started-at="2020-11-28T10:20:25 IST" finished-at="2020-11-28T10:20:28 IST">
+        <test-method status="PASS" signature="verifyFileUpload()[pri:0, instance:tests.UploadFile@64729b1e]" name="verifyFileUpload" duration-ms="4233" started-at="2020-11-28T12:08:05 IST" finished-at="2020-11-28T12:08:09 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddProductWithPostRequestWithPojo -->
-      </class> <!-- tests.BestBuyApiTests -->
+        </test-method> <!-- verifyFileUpload -->
+      </class> <!-- tests.UploadFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
