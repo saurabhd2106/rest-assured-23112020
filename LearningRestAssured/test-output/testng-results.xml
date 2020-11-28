@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="7" total="8" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3179" started-at="2020-11-23T17:28:38 IST" finished-at="2020-11-23T17:28:42 IST">
+  <suite name="Default suite" duration-ms="2799" started-at="2020-11-28T10:20:25 IST" finished-at="2020-11-28T10:20:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3179" started-at="2020-11-23T17:28:38 IST" finished-at="2020-11-23T17:28:42 IST">
+    <test name="Default test" duration-ms="2799" started-at="2020-11-28T10:20:25 IST" finished-at="2020-11-28T10:20:28 IST">
       <class name="tests.BestBuyApiTests">
-        <test-method status="PASS" signature="verifyGetProductApiWithParameters()[pri:0, instance:tests.BestBuyApiTests@5a8806ef]" name="verifyGetProductApiWithParameters" duration-ms="3141" started-at="2020-11-23T17:28:38 IST" finished-at="2020-11-23T17:28:42 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.BestBuyApiTests@711f39f9]" name="setup" is-config="true" duration-ms="439" started-at="2020-11-28T10:20:25 IST" finished-at="2020-11-28T10:20:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGetProductApiWithParameters -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAddProductWithPostRequestWithPojo()[pri:0, instance:tests.BestBuyApiTests@711f39f9]" name="verifyAddProductWithPostRequestWithPojo" duration-ms="2326" started-at="2020-11-28T10:20:25 IST" finished-at="2020-11-28T10:20:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddProductWithPostRequestWithPojo -->
       </class> <!-- tests.BestBuyApiTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

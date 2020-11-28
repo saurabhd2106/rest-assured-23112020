@@ -5,7 +5,8 @@
     <classes>
       <class name="tests.BestBuyApiTests">
         <methods>
-          <include name="verifyGetProductApi"/>
+          <include name="verifyAddProductWithPostRequestWithPojo"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- tests.BestBuyApiTests -->
     </classes>

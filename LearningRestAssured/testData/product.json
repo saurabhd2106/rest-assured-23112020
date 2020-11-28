@@ -1,0 +1,12 @@
+{
+  "name": "Samsung Mobile",
+  "type": "Mobile",
+  "price": 500,
+  "shipping": 10,
+  "upc": "Mobile",
+  "description": "Best Mobile in the town",
+  "manufacturer": "Samsung",
+  "model": "M31",
+  "url": "string",
+  "image": "string"
+}
